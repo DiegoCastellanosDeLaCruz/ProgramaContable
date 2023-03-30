@@ -29,6 +29,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -96,11 +97,21 @@ Partial Class Form1
         Me.CheckBox3.Text = "CheckBox3"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(968, 435)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(233, 64)
+        Me.Button3.TabIndex = 7
+        Me.Button3.Text = "Button3"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1600, 740)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label1)
@@ -122,4 +133,5 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents Button3 As Button
 End Class
