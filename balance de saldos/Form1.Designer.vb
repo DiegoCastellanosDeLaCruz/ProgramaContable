@@ -38,13 +38,13 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(245, 109)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Imprimir"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(392, 187)
+        Me.CheckBox1.Location = New System.Drawing.Point(1059, 161)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(100, 21)
         Me.CheckBox1.TabIndex = 1
@@ -54,7 +54,7 @@ Partial Class Form1
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(380, 307)
+        Me.CheckBox2.Location = New System.Drawing.Point(846, 414)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(100, 21)
         Me.CheckBox2.TabIndex = 2
@@ -64,7 +64,8 @@ Partial Class Form1
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(395, 448)
+        Me.ComboBox1.Items.AddRange(New Object() {"Caja", "Bancos", "Mercaderías"})
+        Me.ComboBox1.Location = New System.Drawing.Point(403, 158)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 24)
         Me.ComboBox1.TabIndex = 3
@@ -72,11 +73,11 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(769, 595)
+        Me.Label1.Location = New System.Drawing.Point(700, 60)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
+        Me.Label1.Size = New System.Drawing.Size(163, 21)
         Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Label1"
+        Me.Label1.Text = "Programa Contable"
         '
         'Button2
         '
