@@ -27,6 +27,8 @@ Partial Class Form1
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -75,11 +77,32 @@ Partial Class Form1
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Label1"
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(1238, 136)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(238, 106)
+        Me.Button2.TabIndex = 5
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(1135, 307)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(100, 21)
+        Me.CheckBox3.TabIndex = 6
+        Me.CheckBox3.Text = "CheckBox3"
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1600, 740)
+        Me.Controls.Add(Me.CheckBox3)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.CheckBox2)
@@ -97,4 +120,6 @@ Partial Class Form1
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents CheckBox3 As CheckBox
 End Class
