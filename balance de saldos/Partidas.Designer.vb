@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class Partidas
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -38,12 +38,14 @@ Partial Class Form2
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(198, 111)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(484, 111)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(6)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(396, 31)
         Me.DateTimePicker1.TabIndex = 0
@@ -54,9 +56,9 @@ Partial Class Form2
         Me.Label1.Location = New System.Drawing.Point(74, 111)
         Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(110, 25)
+        Me.Label1.Size = New System.Drawing.Size(98, 25)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Partida #1"
+        Me.Label1.Text = "Partida #"
         '
         'Label2
         '
@@ -191,11 +193,29 @@ Partial Class Form2
         Me.Button3.Text = "Fin Libro Diario"
         Me.Button3.UseVisualStyleBackColor = True
         '
-        'Form2
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(59, 500)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(1017, 31)
+        Me.TextBox3.TabIndex = 16
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
+        Me.ComboBox2.Location = New System.Drawing.Point(182, 111)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(121, 33)
+        Me.ComboBox2.TabIndex = 17
+        '
+        'Partidas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1200, 703)
+        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox2)
@@ -213,7 +233,7 @@ Partial Class Form2
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Name = "Form2"
+        Me.Name = "Partidas"
         Me.Text = "Form2"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -236,4 +256,6 @@ Partial Class Form2
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents ComboBox2 As ComboBox
 End Class
