@@ -75,7 +75,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(700, 60)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(163, 21)
+        Me.Label1.Size = New System.Drawing.Size(130, 17)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Programa Contable"
         '
