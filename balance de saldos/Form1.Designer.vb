@@ -30,13 +30,15 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(1301, 569)
+        Me.Button1.Location = New System.Drawing.Point(1952, 889)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(245, 109)
+        Me.Button1.Size = New System.Drawing.Size(368, 170)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Imprimir"
         Me.Button1.UseVisualStyleBackColor = True
@@ -44,9 +46,10 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(1059, 161)
+        Me.CheckBox1.Location = New System.Drawing.Point(1588, 252)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(100, 21)
+        Me.CheckBox1.Size = New System.Drawing.Size(154, 29)
         Me.CheckBox1.TabIndex = 1
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -54,9 +57,10 @@ Partial Class Form1
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(846, 414)
+        Me.CheckBox2.Location = New System.Drawing.Point(1269, 647)
+        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(100, 21)
+        Me.CheckBox2.Size = New System.Drawing.Size(154, 29)
         Me.CheckBox2.TabIndex = 2
         Me.CheckBox2.Text = "CheckBox2"
         Me.CheckBox2.UseVisualStyleBackColor = True
@@ -65,25 +69,28 @@ Partial Class Form1
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Caja", "Bancos", "Mercaderías"})
-        Me.ComboBox1.Location = New System.Drawing.Point(403, 158)
+        Me.ComboBox1.Location = New System.Drawing.Point(604, 247)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(180, 33)
         Me.ComboBox1.TabIndex = 3
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(700, 60)
+        Me.Label1.Location = New System.Drawing.Point(1050, 94)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(130, 17)
+        Me.Label1.Size = New System.Drawing.Size(197, 25)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Programa Contable"
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(1238, 136)
+        Me.Button2.Location = New System.Drawing.Point(1857, 212)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(238, 106)
+        Me.Button2.Size = New System.Drawing.Size(357, 166)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
@@ -91,27 +98,38 @@ Partial Class Form1
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(1135, 307)
+        Me.CheckBox3.Location = New System.Drawing.Point(1702, 480)
+        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(100, 21)
+        Me.CheckBox3.Size = New System.Drawing.Size(154, 29)
         Me.CheckBox3.TabIndex = 6
         Me.CheckBox3.Text = "CheckBox3"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(968, 435)
+        Me.Button3.Location = New System.Drawing.Point(1452, 680)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(233, 64)
+        Me.Button3.Size = New System.Drawing.Size(350, 100)
         Me.Button3.TabIndex = 7
         Me.Button3.Text = "Button3"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'ReportViewer1
+        '
+        Me.ReportViewer1.Location = New System.Drawing.Point(47, 64)
+        Me.ReportViewer1.Name = "ReportViewer1"
+        Me.ReportViewer1.ServerReport.BearerToken = Nothing
+        Me.ReportViewer1.Size = New System.Drawing.Size(396, 246)
+        Me.ReportViewer1.TabIndex = 8
+        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1600, 740)
+        Me.ClientSize = New System.Drawing.Size(2400, 1156)
+        Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.Button2)
@@ -120,6 +138,7 @@ Partial Class Form1
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -135,4 +154,5 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents Button3 As Button
+    Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
 End Class
