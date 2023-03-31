@@ -40,112 +40,112 @@ Partial Class Partidas
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(484, 111)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(6)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(323, 71)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(396, 31)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(265, 22)
         Me.DateTimePicker1.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(74, 111)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label1.Location = New System.Drawing.Point(49, 71)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(98, 25)
+        Me.Label1.Size = New System.Drawing.Size(65, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Partida #"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(672, 223)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label2.Location = New System.Drawing.Point(448, 143)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(63, 25)
+        Me.Label2.Size = New System.Drawing.Size(42, 17)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Debe"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(844, 223)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label3.Location = New System.Drawing.Point(563, 143)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(70, 25)
+        Me.Label3.Size = New System.Drawing.Size(47, 17)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Haber"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(54, 275)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label4.Location = New System.Drawing.Point(36, 176)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(56, 25)
+        Me.Label4.Size = New System.Drawing.Size(36, 17)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Caja"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(54, 317)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label5.Location = New System.Drawing.Point(36, 203)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(166, 25)
+        Me.Label5.Size = New System.Drawing.Size(109, 17)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Banco Industrial"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(54, 350)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label6.Location = New System.Drawing.Point(36, 224)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(97, 25)
+        Me.Label6.Size = New System.Drawing.Size(64, 17)
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "Deposito"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(54, 384)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label7.Location = New System.Drawing.Point(36, 246)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(131, 25)
+        Me.Label7.Size = New System.Drawing.Size(86, 17)
         Me.Label7.TabIndex = 7
         Me.Label7.Text = "Mercaderias"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(74, 427)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label8.Location = New System.Drawing.Point(49, 273)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(134, 25)
+        Me.Label8.Size = New System.Drawing.Size(89, 17)
         Me.Label8.TabIndex = 8
         Me.Label8.Text = "Proveedores"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(74, 459)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label9.Location = New System.Drawing.Point(49, 294)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(155, 25)
+        Me.Label9.Size = New System.Drawing.Size(101, 17)
         Me.Label9.TabIndex = 9
         Me.Label9.Text = "Capital Liquido"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(578, 609)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button1.Location = New System.Drawing.Point(385, 390)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(170, 45)
+        Me.Button1.Size = New System.Drawing.Size(113, 29)
         Me.Button1.TabIndex = 10
         Me.Button1.Text = "+ Registro"
         Me.Button1.UseVisualStyleBackColor = True
@@ -154,66 +154,79 @@ Partial Class Partidas
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Caja", "Bancos", "Mercaderia", "Proveedores"})
-        Me.ComboBox1.Location = New System.Drawing.Point(262, 266)
+        Me.ComboBox1.Location = New System.Drawing.Point(175, 170)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(283, 33)
+        Me.ComboBox1.Size = New System.Drawing.Size(190, 24)
         Me.ComboBox1.TabIndex = 11
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(677, 266)
+        Me.TextBox1.Location = New System.Drawing.Point(451, 170)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 31)
+        Me.TextBox1.Size = New System.Drawing.Size(68, 22)
         Me.TextBox1.TabIndex = 12
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(849, 266)
+        Me.TextBox2.Location = New System.Drawing.Point(566, 170)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 31)
+        Me.TextBox2.Size = New System.Drawing.Size(68, 22)
         Me.TextBox2.TabIndex = 13
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(779, 609)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button2.Location = New System.Drawing.Point(519, 390)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(170, 45)
+        Me.Button2.Size = New System.Drawing.Size(113, 29)
         Me.Button2.TabIndex = 14
         Me.Button2.Text = "+ Partida"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(985, 609)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button3.Location = New System.Drawing.Point(657, 390)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(170, 45)
+        Me.Button3.Size = New System.Drawing.Size(113, 29)
         Me.Button3.TabIndex = 15
         Me.Button3.Text = "Fin Libro Diario"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(59, 500)
+        Me.TextBox3.Location = New System.Drawing.Point(39, 320)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(1017, 31)
+        Me.TextBox3.Size = New System.Drawing.Size(679, 22)
         Me.TextBox3.TabIndex = 16
         '
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox2.Location = New System.Drawing.Point(182, 111)
+        Me.ComboBox2.Location = New System.Drawing.Point(121, 71)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 33)
+        Me.ComboBox2.Size = New System.Drawing.Size(82, 24)
         Me.ComboBox2.TabIndex = 17
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(430, 209)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(204, 90)
+        Me.Button4.TabIndex = 18
+        Me.Button4.Text = "Button4"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'Partidas
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1200, 703)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Button3)
@@ -232,7 +245,7 @@ Partial Class Partidas
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DateTimePicker1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Partidas"
         Me.Text = "Form2"
         Me.ResumeLayout(False)
@@ -258,4 +271,5 @@ Partial Class Partidas
     Friend WithEvents Button3 As Button
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents Button4 As Button
 End Class
